@@ -9,3 +9,10 @@ html {
 body {
     background-color: lightgray;
 }
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    background-color: blue;
+    height: 200px;
+}
