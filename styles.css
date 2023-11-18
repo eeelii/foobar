@@ -16,10 +16,6 @@ h1 {
     background-color: blue;
     height: 200px;
 }
-
-ul {
-    background-color: Yellow;
-}
 .app-body {
     text-align: center;
     background-color: #282c34;
@@ -30,8 +26,8 @@ ul {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
-  .box {
+}
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,8 +36,7 @@ ul {
     width: 500px;
     height: 350px;
     background: #fff;
-  }
-
+}
 .box::before {
     content: "";
     position: absolute;
@@ -52,8 +47,8 @@ ul {
     background: linear-gradient(315deg, #D95252, #D95252);
     border-radius: 5px;
     transform: skewX(2deg) skewY(4deg);
-  }
-  .box::after {
+}
+.box::after {
     content: "";
     position: absolute;
     top: -4px;
@@ -62,8 +57,8 @@ ul {
     bottom: -4px;
     background: linear-gradient(315deg, #D95252, #D95252);
     transform: skewX(2deg) skewY(2deg);
-  }
-  .box span {
+}
+.box span {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,15 +66,15 @@ ul {
     height: 100%;
     background: #282c34;
     z-index: 10;
-  }
-  h2, h3 {
+}
+h2, h3 {
     position: relative;
     color: #fff;
     font-size: 2em;
     z-index: 11;
     margin: 0;
-  }
+}
   .box h3 {
     font-size: 1.25em;
     transition: ease-in-out 0.3s;
-  }
+}
